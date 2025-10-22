@@ -1,0 +1,27 @@
+{
+  "name": "lunalyticdocs",
+  "version": "0.1.0",
+  "description": "Documentation for Lunalytics dashboard and API",
+  "private": true,
+  "author": "KSJaay <ksjaay@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksjaay/lunalyticdocs.git"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 3000",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0"
+  },
+  "dependencies": {
+    "httpsnippet": "^2.0.0",
+    "marked": "^16.2.1",
+    "vite-plugin-redirect": "^0.2.1",
+    "vitepress": "^1.6.4"
+  }
+}
