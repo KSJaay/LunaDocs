@@ -10,16 +10,16 @@ User endpoints allow you to interact with user data within the application. Thes
 
 ### User structure
 
-| Field       | Type    | Description                                                                                     |
-| ----------- | ------- | ----------------------------------------------------------------------------------------------- |
-| email       | string  | The users's email address                                                                       |
-| displayName | string  | Username of the user                                                                            |
-| avatar      | string  | User's avatar url                                                                               |
-| isVerified  | boolean | If the user has been verified to accesss the application                                        |
-| permission  | number  | Bitflags for the [permissions](guides/internals/permissions.md) the user has to the application |
-| createdAt   | date    | Date of when the user was created                                                               |
-| isOwner     | boolean | If the user is the owner of the application                                                     |
-| sso         | boolean | If the user registered using Single Sign-On (SSO)                                               |
+| Field       | Type    | Description                                                                                      |
+| ----------- | ------- | ------------------------------------------------------------------------------------------------ |
+| email       | string  | The users's email address                                                                        |
+| displayName | string  | Username of the user                                                                             |
+| avatar      | string  | User's avatar url                                                                                |
+| isVerified  | boolean | If the user has been verified to accesss the application                                         |
+| permission  | number  | Bitflags for the [permissions](/guides/internals/permissions.md) the user has to the application |
+| createdAt   | date    | Date of when the user was created                                                                |
+| isOwner     | boolean | If the user is the owner of the application                                                      |
+| sso         | boolean | If the user registered using Single Sign-On (SSO)                                                |
 
 ### Example User
 

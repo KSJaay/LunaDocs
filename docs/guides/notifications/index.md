@@ -7,7 +7,7 @@ next: false
 ---
 
 <script setup>
-import Blog from '../components/guides.vue';
+import Blog from '../../components/guides.vue';
 </script>
 
 <Blog />
