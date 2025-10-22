@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Lunalytics',
-  base: '/docs/',
+  base: '/',
   description: 'Documentation for Lunalytics',
   cleanUrls: true,
   head: [
@@ -149,7 +149,7 @@ export default defineConfig({
       },
     },
     editLink: {
-      pattern: 'https://github.com/KSJaay/LunalyticDocs/edit/main/docs/:path',
+      pattern: 'https://github.com/KSJaay/LunaDocs/edit/main/docs/:path',
     },
     search: {
       provider: 'local',
