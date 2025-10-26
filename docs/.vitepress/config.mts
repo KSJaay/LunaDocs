@@ -26,6 +26,21 @@ export default defineConfig({
       { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
     ],
     ['meta', { name: 'description', content: 'Documentation for Lunalytics' }],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-VPEQXMFBFS',
+      },
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VPEQXMFBFS');`,
+    ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
