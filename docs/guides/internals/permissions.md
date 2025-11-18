@@ -1,3 +1,31 @@
+---
+title: Lunalytics Permissions Guide
+description: Guide to understanding and managing user roles and permissions in Lunalytics, the open source application monitoring and status page platform.
+keywords:
+  [
+    Lunalytics,
+    permissions,
+    roles,
+    user management,
+    access control,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
+---
+
 # Permissions
 
 Lunalytics uses a bitwise permission system to manage user roles and access levels. Each permission is represented by a unique bit in an integer, allowing for efficient storage and checking of multiple permissions. The permissions are defined as follows:

@@ -1,3 +1,27 @@
+---
+title: Introduction to Lunalytics
+description: Introduction to Lunalytics, the open source platform for application monitoring, downtime notifications, and public status pages.
+keywords:
+  [
+    Lunalytics,
+    introduction,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+  ]
+---
+
 # Welcome to Lunalytics documentation
 
 ## Try out the live demo

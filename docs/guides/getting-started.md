@@ -1,5 +1,28 @@
 ---
 outline: deep
+
+description: Learn how to set up and start using Lunalytics, the open source application monitoring and status page platform. Get your monitoring and notifications running in minutes.
+keywords:
+  [
+    Lunalytics,
+    getting started,
+    setup,
+    installation,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+  ]
 ---
 
 # 🚀 Getting Started

@@ -5,6 +5,28 @@ next:
   text: 'Getting Started'
   link: '/guides/getting-started'
 aside: false
+keywords:
+  [
+    Lunalytics,
+    application monitoring,
+    status page,
+    downtime notifications,
+    uptime monitoring,
+    incident alerts,
+    open source,
+    monitoring tool,
+    API,
+    user login,
+    user registration,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
 ---
 
 # Welcome to Lunalytics documentation

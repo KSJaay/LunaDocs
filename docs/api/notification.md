@@ -1,5 +1,33 @@
 ---
 aside: false
+
+description: API documentation for managing notifications in Lunalytics, including integration with Discord, Slack, Telegram, Webhooks, and more.
+keywords:
+  [
+    Lunalytics,
+    notification,
+    API,
+    Discord,
+    Slack,
+    Telegram,
+    Webhooks,
+    Home Assistant,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
 ---
 
 # Notification Endpoints

@@ -7,19 +7,16 @@ export default defineConfig({
   description: 'Documentation for Lunalytics',
   cleanUrls: true,
   head: [
-    ['link', { rel: 'icon', href: '/docs/icon-192x192.png' }],
-    ['link', { rel: 'manifest', href: '/docs/manifest.json' }],
+    ['link', { rel: 'icon', href: '/icon-192x192.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'mobile-web-app-capable', content: 'yes' }],
     [
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
     ],
-    ['link', { rel: 'apple-touch-icon', href: '/docs/icon-192x192.png' }],
-    [
-      'meta',
-      { name: 'msapplication-TileImage', content: '/docs/icon-192x192.png' },
-    ],
+    ['link', { rel: 'apple-touch-icon', href: '/icon-192x192.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icon-192x192.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     [
       'meta',
@@ -155,7 +152,7 @@ export default defineConfig({
     ],
     footer: {
       copyright:
-        'Copyright © 2023 - present <a href="https://github.com/KSJaay">KSJaay</a>',
+        'Copyright © 2024 - present <a href="https://github.com/KSJaay">KSJaay</a>',
     },
     lastUpdated: {
       formatOptions: {

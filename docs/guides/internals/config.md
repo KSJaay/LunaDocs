@@ -1,3 +1,32 @@
+---
+title: Lunalytics Config Guide
+description: Guide to configuring the server and database for Lunalytics, including config.json options and best practices.
+keywords:
+  [
+    Lunalytics,
+    config,
+    configuration,
+    server setup,
+    database,
+    config.json,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
+---
+
 # Config
 
 Configurations are used to set up the server and database. The configurations are stored in a JSON file called `config.json` in the root directory of the project.

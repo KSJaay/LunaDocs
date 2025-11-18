@@ -1,5 +1,27 @@
 ---
 aside: false
+
+description: API documentation for managing monitors in Lunalytics, including setup, retrieval, and monitoring of application health and uptime.
+keywords:
+  [
+    Lunalytics,
+    monitor,
+    API,
+    application monitoring,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
 ---
 
 # Monitor Endpoints

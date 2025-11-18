@@ -1,3 +1,32 @@
+---
+title: Lunalytics Pull Request Guidelines
+description: Guidelines for submitting pull requests to the Lunalytics open source project, including code, documentation, and testing requirements.
+keywords:
+  [
+    Lunalytics,
+    pull request,
+    contributing,
+    open source,
+    code review,
+    documentation,
+    testing,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
+---
+
 # Pull Request guidelines
 
 - Adding a new feature

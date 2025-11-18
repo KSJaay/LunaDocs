@@ -1,3 +1,30 @@
+---
+title: Lunalytics Changelog
+description: Changelog and release notes for Lunalytics, the open source application monitoring and status page platform.
+keywords:
+  [
+    Lunalytics,
+    changelog,
+    release notes,
+    updates,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
+---
+
 # Previous updates
 
 Going forward information about all updates will be available at: https://github.com/KSJaay/Lunalytics/releases

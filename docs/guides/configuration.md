@@ -1,3 +1,29 @@
+---
+title: Lunalytics Configuration Guide
+description: Guide to configuring Lunalytics for secure and reliable application monitoring, including setup scripts and config.json options.
+keywords:
+  [
+    Lunalytics,
+    configuration,
+    setup,
+    config.json,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+  ]
+---
+
 # Configuration
 
 ## Setup Lunalytics

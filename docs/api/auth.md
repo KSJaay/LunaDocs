@@ -1,5 +1,23 @@
 ---
 aside: false
+
+title: Lunalytics Auth API
+description: API documentation for authentication endpoints in Lunalytics, the application monitoring and status page platform.
+keywords:
+  [
+    Lunalytics,
+    authentication,
+    API,
+    user login,
+    user registration,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+  ]
 ---
 
 # Auth Endpoints

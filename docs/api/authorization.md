@@ -1,5 +1,31 @@
 ---
 aside: false
+
+description: Learn how to use API tokens and session cookies for secure authorization in Lunalytics, the open source application monitoring and status page platform.
+keywords:
+  [
+    Lunalytics,
+    authorization,
+    API,
+    API tokens,
+    session cookies,
+    authentication,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
 ---
 
 # Authorization

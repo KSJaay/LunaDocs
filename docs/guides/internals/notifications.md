@@ -1,3 +1,34 @@
+---
+title: Lunalytics Notifications Guide
+description: Guide to notification systems in Lunalytics, including Discord, Slack, Teams, Telegram, Webhooks, and more.
+keywords:
+  [
+    Lunalytics,
+    notifications,
+    Discord,
+    Slack,
+    Teams,
+    Telegram,
+    Webhooks,
+    Home Assistant,
+    application monitoring,
+    status page,
+    uptime monitoring,
+    downtime notifications,
+    incident alerts,
+    open source,
+    monitoring tool,
+    real-time monitoring,
+    service health,
+    public status page,
+    alerting,
+    self-hosted monitoring,
+    SLA monitoring,
+    service reliability,
+    incident management,
+  ]
+---
+
 # Notifications
 
 Notifcations are currently a work in progress and will be available soon. Once we have added the notifications feature, this page will be updated.
