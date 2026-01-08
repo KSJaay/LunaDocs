@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'Lunalytics',
   description: 'Documentation for Lunalytics',
   cleanUrls: true,
+  base: '/',
   head: [
     ['link', { rel: 'icon', href: '/icon-192x192.png' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
