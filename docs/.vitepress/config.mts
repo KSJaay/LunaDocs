@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Lunalytics',
-  base: '/',
   description: 'Documentation for Lunalytics',
   cleanUrls: true,
   head: [
@@ -68,6 +67,7 @@ export default defineConfig({
               // { text: 'Flows', link: 'internals/flows' },
               { text: 'Notifications', link: 'internals/notifications' },
               { text: 'Permissions', link: 'internals/permissions' },
+              { text: 'Custom icons', link: 'internals/custom-icons' },
             ],
             collapsed: false,
           },
