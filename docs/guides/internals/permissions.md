@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Permissions Guide
+title: Permissions
 description: Guide to understanding and managing user roles and permissions in Lunalytics, the open source application monitoring and status page platform.
 keywords:
   [
@@ -29,6 +29,16 @@ keywords:
 # Permissions
 
 Lunalytics uses a bitwise permission system to manage user roles and access levels. Each permission is represented by a unique bit in an integer, allowing for efficient storage and checking of multiple permissions. The permissions are defined as follows:
+
+### User Permissions
+
+| Role          | Value    | Description                       |
+| ------------- | -------- | --------------------------------- |
+| ADMINISTRATOR | `1 << 0` | Has all permissions               |
+| MANAGE_TEAM   | `1 << 1` | Permission to manage team members |
+| CREATE_INVITE | `1 << 2` | Permission to create invites      |
+
+### Member Permissions
 
 | Role                 | Value     | Description                                            |
 | -------------------- | --------- | ------------------------------------------------------ |

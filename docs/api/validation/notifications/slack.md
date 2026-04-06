@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-notifications-slack
+slug: /api/validation/notifications/slack
+title: Slack
 ---
 
 # Slack Notification Schema

@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-status-settings
+slug: /api/validation/status/settings
+title: Status Settings
 ---
 
 # Status Settings Validation Schema

@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-token
+slug: /api/validation/token
+title: Token Endpoints
 ---
 
 # Token Endpoints

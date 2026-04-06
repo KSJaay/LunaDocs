@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Internals Overview
+title: Overview
 description: Overview of the internal architecture and design of Lunalytics, the open source application monitoring and status page platform.
 keywords:
   [

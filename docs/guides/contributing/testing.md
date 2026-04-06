@@ -1,12 +1,7 @@
 # Testing requirements
 
-## End to end testing
+We currently have a low amount of end to end tests, but we are working on adding more. If you want to help out with end to end testing, please feel free to submit a pull request with new tests.
 
-For the meantime, end to end testing will be limited to monitor adding/removing, registering a user, signing in and verifying a user. We may expand this in future. If you have made any changes to these functionalities, please make sure end to end are passing and if need be, please update them according to your changes.
+For all pull requests unit and integration tests are required. If you are adding new functionality, please also add tests for that functionality.
 
-#### Test files:
-
-- <a href="https://github.com/KSJaay/Lunalytics/blob/main/test/e2e/monitor.test.js" target="_blank">Monitor add/remove</a>
-- <a href="https://github.com/KSJaay/Lunalytics/blob/main/test/e2e/register.test.js" target="_blank">Register</a>
-- <a href="https://github.com/KSJaay/Lunalytics/blob/main/test/e2e/signin.test.js" target="_blank">Signin</a>
-- <a href="https://github.com/KSJaay/Lunalytics/blob/main/test/e2e/verify.test.js" target="_blank">Verify</a>
+Once we release the first major version, we'll become a lot more strict with testing requirements.

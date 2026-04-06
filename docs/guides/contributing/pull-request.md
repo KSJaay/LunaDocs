@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Pull Request Guidelines
+title: Pull Request Guidelines
 description: Guidelines for submitting pull requests to the Lunalytics open source project, including code, documentation, and testing requirements.
 keywords:
   [
@@ -48,6 +48,8 @@ Before submitting a pull request, please make sure that eslint, end to end, and 
   - For documentation run `yarn build:docs`
 - Run end to end tests using `yarn test:server` and `yarn test:e2e`
 - Run unit tests using `yarn test:app`
+
+> Your pull request will declined if it seems like it's AI generated and doesn't follow the guidelines. If you want to use AI to help you write code, please make sure to review the code and make sure it follows the guidelines before submitting a pull request.
 
 ## After submitting pull request
 

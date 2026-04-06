@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Notifications Guide
+title: Notifications
 description: Guide to notification systems in Lunalytics, including Discord, Slack, Teams, Telegram, Webhooks, and more.
 keywords:
   [

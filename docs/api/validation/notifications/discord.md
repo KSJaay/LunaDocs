@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-notifications-discord
+slug: /api/validation/notifications/discord
+title: Discord
 ---
 
 # Discord Notification Schema

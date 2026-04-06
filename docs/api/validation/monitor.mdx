@@ -1,13 +1,19 @@
 ---
-aside: false
+id: validation-monitor
+slug: /api/validation/monitor
+title: Monitor Endpoints
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Monitor Endpoints
 
 Monitor endpoints currently accept 6 different types of services to monitor. Depending on the type different validation rules may apply. Below are the validation schemas for each type.
 
-::: code-group
+<Tabs>
 
+<TabItem value="docker" label="Docker">
 ```json [Docker]
 {
   "type": "object",
@@ -85,7 +91,9 @@ Monitor endpoints currently accept 6 different types of services to monitor. Dep
   }
 }
 ```
+</TabItem>
 
+<TabItem value="http" label="HTTP">
 ```json [HTTP]
 {
   "type": "object",
@@ -191,7 +199,9 @@ Monitor endpoints currently accept 6 different types of services to monitor. Dep
   }
 }
 ```
+</TabItem>
 
+<TabItem value="json" label="JSON">
 ```json [JSON]
 {
   "type": "object",
@@ -315,7 +325,9 @@ Monitor endpoints currently accept 6 different types of services to monitor. Dep
   }
 }
 ```
+</TabItem>
 
+<TabItem value="ping" label="Ping">
 ```json [Ping]
 {
   "type": "object",
@@ -393,7 +405,9 @@ Monitor endpoints currently accept 6 different types of services to monitor. Dep
   }
 }
 ```
+</TabItem>
 
+<TabItem value="push" label="Push">
 ```json [Push]
 {
   "type": "object",
@@ -471,7 +485,9 @@ Monitor endpoints currently accept 6 different types of services to monitor. Dep
   }
 }
 ```
+</TabItem>
 
+<TabItem value="tcp" label="TCP">
 ```json [TCP]
 {
   "type": "object",
@@ -549,5 +565,6 @@ Monitor endpoints currently accept 6 different types of services to monitor. Dep
   }
 }
 ```
+</TabItem>
 
-:::
+</Tabs>

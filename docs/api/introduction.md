@@ -1,3 +1,9 @@
+---
+id: api-introduction
+slug: /api/introduction
+title: Introduction
+---
+
 # Introduction to Lunalytics API
 
 The Lunalytics API is currently based on the [REST architecture](https://en.wikipedia.org/wiki/REST). It currently accepts `application/json` for the request body and returns [JSON-encoded](https://www.json.org/json-en.html) responses, uses standard HTTP response codes, authentication, and verbs.

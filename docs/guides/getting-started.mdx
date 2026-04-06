@@ -1,29 +1,30 @@
 ---
-outline: deep
-
-description: Learn how to set up and start using Lunalytics, the open source application monitoring and status page platform. Get your monitoring and notifications running in minutes.
+id: getting-started
+slug: /guides/getting-started
+title: Getting Started
 keywords:
-  [
-    Lunalytics,
-    getting started,
-    setup,
-    installation,
-    application monitoring,
-    status page,
-    uptime monitoring,
-    downtime notifications,
-    incident alerts,
-    open source,
-    monitoring tool,
-    real-time monitoring,
-    service health,
-    public status page,
-    alerting,
-    self-hosted monitoring,
-    SLA monitoring,
-    service reliability,
-  ]
+  - Lunalytics
+  - getting started
+  - setup
+  - installation
+  - application monitoring
+  - status page
+  - uptime monitoring
+  - downtime notifications
+  - incident alerts
+  - open source
+  - monitoring tool
+  - real-time monitoring
+  - service health
+  - public status page
+  - alerting
+  - self-hosted monitoring
+  - SLA monitoring
+  - service reliability
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # 🚀 Getting Started
 
@@ -33,17 +34,20 @@ You can try out the Lunalytics [live demo here](https://demo.lunalytics.xyz). Yo
 
 ### Docker
 
-::: code-group
+<Tabs>
 
-```bash [Docker]
+<TabItem value="Docker" label="Docker">
+```bash
 docker run -d \
-  -p 2308:2308 \
-  -v /path/to/data:/app/data \
-  -v /path/to/logs:/app/logs \
-  ksjaay/lunalytics:latest
+ -p 2308:2308 \
+ -v /path/to/data:/app/data \
+ -v /path/to/logs:/app/logs \
+ ksjaay/lunalytics:latest
 ```
+</TabItem>
 
-```yaml [Docker Compose]
+<TabItem value="Docker Compose" label="Docker Compose">
+```yaml
 # docker-compose.yml
 services:
   lunalytics:
@@ -55,8 +59,9 @@ services:
       - ./path/to/data:/app/data
       - ./path/to/logs:/app/logs
 ```
+</TabItem>
 
-:::
+</Tabs>
 
 ### Requirements
 
@@ -75,9 +80,10 @@ cd Lunalytics
 
 ### Setup application
 
-::: code-group
+<Tabs>
 
-```bash [npm]
+<TabItem value="npm" label="npm">
+```bash
 # Setup application
 npm run setup
 
@@ -86,11 +92,14 @@ npm run start
 
 # Alternatively start application using
 node server/index.js
-```
 
-```bash [yarn]
+```
+</TabItem>
+
+<TabItem value="yarn" label="yarn">
+```bash
 # Setup application
-yarn setup
+yarn setup  
 
 # Start application using scripts
 yarn start
@@ -98,8 +107,10 @@ yarn start
 # Alternatively start application using
 node server/index.js
 ```
+</TabItem>
 
-```bash [pnpm]
+<TabItem value="pnpm" label="pnpm">
+```bash
 # Setup application
 pnpm setup
 
@@ -109,16 +120,19 @@ pnpm start
 # Alternatively start application using
 node server/index.js
 ```
+</TabItem>
 
-:::
+</Tabs>
 
 Lunalytics will be accessible on `http://localhost:2308`
 
 ### Using pm2 to run application in the background
 
-::: code-group
 
-```bash [npm]
+<Tabs>
+
+<TabItem value="npm" label="npm">
+```bash
 # Install pm2 globally
 npm install pm2 -g
 
@@ -135,10 +149,13 @@ pm2 startup
 ## Monitoring console output
 pm2 monit
 ```
+</TabItem>
 
-```bash [yarn]
+
+<TabItem value="yarn" label="yarn">
+```bash
 # Install pm2 globally
-yarn global add pm2
+yarn global add pm2 
 
 # Start the server
 pm2 start server/index.js --name Lunalytics
@@ -153,8 +170,11 @@ pm2 startup
 ## Monitoring console output
 pm2 monit
 ```
+</TabItem>
 
-```bash [pnpm]
+
+<TabItem value="pnpm" label="pnpm">
+```bash
 # Install pm2 globally
 pnpm add -g pm2
 
@@ -171,5 +191,6 @@ pm2 startup
 ## Monitoring console output
 pm2 monit
 ```
+</TabItem>
 
-:::
+</Tabs> 

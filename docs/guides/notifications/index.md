@@ -1,13 +1,9 @@
 ---
-aside: false
-sidebar: false
-layout: page
-prev: false
-next: false
+id: notifications-index
+slug: /guides/notifications
+sidebar_position: 1
+title: Notifications
 ---
 
-<script setup>
-import Blog from '../../components/guides.vue';
-</script>
+# Notifications
 
-<Blog />

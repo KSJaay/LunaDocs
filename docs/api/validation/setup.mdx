@@ -1,11 +1,17 @@
 ---
-aside: false
+id: validation-setup
+slug: /api/validation/setup
+title: Setup Endpoints
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Setup Endpoints
 
-::: code-group
+<Tabs>
 
+<TabItem value="SQLite" label="SQLite">
 ```json [SQLite]
 {
   "type": "object",
@@ -57,7 +63,8 @@ aside: false
   }
 }
 ```
-
+</TabItem>
+<TabItem value="PostgreSQL" label="PostgreSQL">
 ```json [PostgreSQL]
 {
   "type": "object",
@@ -131,4 +138,5 @@ aside: false
 }
 ```
 
-:::
+</TabItem>
+</Tabs>

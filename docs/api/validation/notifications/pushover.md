@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-notifications-pushover
+slug: /api/validation/notifications/pushover
+title: Pushover
 ---
 
 # Pushover Notification Schema

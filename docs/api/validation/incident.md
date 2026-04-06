@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-incident
+slug: /api/validation/incident
+title: Incident Endpoints
 ---
 
 # Incident Endpoints

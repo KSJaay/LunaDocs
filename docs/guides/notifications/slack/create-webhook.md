@@ -1,10 +1,7 @@
 ---
-aside: false
-sidebar: false
-prev:
-  text: 'Guides'
-  link: '/guides'
-next: false
+id: create-slack-webhook
+slug: /guides/notifications/slack/create-webhook
+title: Creating a Slack webhook
 ---
 
 ## Currently a work in progress.

@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-provider
+slug: /api/validation/provider
+title: Provider Endpoints
 ---
 
 # Provider Endpoints

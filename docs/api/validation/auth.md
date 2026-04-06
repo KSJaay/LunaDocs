@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-auth
+slug: /api/validation/auth
+title: Auth Endpoints
 ---
 
 # Auth Endpoints
@@ -32,5 +34,6 @@ Auth endpoints are used for user authentication and management. Below are the JS
       "pattern": "/^[a-zA-Z0-9_\- ]{3,32}$/",
       "required": true
     }
+  }
 }
 ```

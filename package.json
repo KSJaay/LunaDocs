@@ -5,23 +5,53 @@
   "private": true,
   "author": "KSJaay <ksjaay@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/ksjaay/lunalyticdocs.git"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs --port 3000",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "devDependencies": {
-    "eslint": "^9.19.0"
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start --no-open",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc",
+    "create:openapi": "docusaurus gen-api-docs lunalytics"
   },
   "dependencies": {
-    "httpsnippet": "^2.0.0",
-    "marked": "^16.2.1",
-    "vite-plugin-redirect": "^0.2.1",
-    "vitepress": "^1.6.4"
+    "@docusaurus/core": "3.9.2",
+    "@docusaurus/preset-classic": "3.9.2",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "docusaurus-plugin-openapi-docs": "^4.7.1",
+    "docusaurus-theme-openapi-docs": "^4.7.1",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.9.2",
+    "@docusaurus/tsconfig": "3.9.2",
+    "@docusaurus/types": "3.9.2",
+    "typescript": "~5.6.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0"
   }
 }
