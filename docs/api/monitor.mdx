@@ -1,28 +1,30 @@
 ---
-aside: false
-
+id: api-monitor
+slug: /api/monitor
+title: Monitor
 description: API documentation for managing monitors in Lunalytics, including setup, retrieval, and monitoring of application health and uptime.
 keywords:
-  [
-    Lunalytics,
-    monitor,
-    API,
-    application monitoring,
-    uptime monitoring,
-    downtime notifications,
-    incident alerts,
-    open source,
-    monitoring tool,
-    real-time monitoring,
-    service health,
-    public status page,
-    alerting,
-    self-hosted monitoring,
-    SLA monitoring,
-    service reliability,
-    incident management,
-  ]
+  - Lunalytics
+  - monitor
+  - API
+  - application monitoring
+  - uptime monitoring
+  - downtime notifications
+  - incident alerts
+  - open source
+  - monitoring tool
+  - real-time monitoring
+  - service health
+  - public status page
+  - alerting
+  - self-hosted monitoring
+  - SLA monitoring
+  - service reliability
+  - incident management
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Monitor Endpoints
 
@@ -34,37 +36,38 @@ The monitor object may contain different fields based on the type of monitor (Do
 
 ### Monitor Structure
 
-| Field                   | Type                                      | Description                                              |
-| ----------------------- | ----------------------------------------- | -------------------------------------------------------- |
-| monitorId               | string                                    | Unique id for the monitor                                |
-| name                    | string                                    | Name of the monitor                                      |
-| url                     | string                                    | URL/IP/Identifier of the monitor                         |
-| retry                   | integer                                   | Number of retries before sending notification            |
-| interval                | integer                                   | Interval between each ping to monitor                    |
-| retryInterval           | integer                                   | Retry interval after a failed ping                       |
-| requestTimeout          | integer                                   | Request timeout for ping                                 |
-| method                  | ?string                                   | Method for http monitor                                  |
-| headers                 | ?object                                   | Headers object for http request                          |
-| body                    | ?object                                   | Body object for http request                             |
-| ignoreTls               | ?boolean                                  | Whether to ignore TLS for HTTPS monitors                 |
-| valid_status_codes      | ?array                                    | Array of valid status codes for http request             |
-| email                   | string                                    | Email address for the user who created the monitor       |
-| type                    | string                                    | Type of montior (HTTP/TCP)                               |
-| port                    | ?integer                                  | Port for the TCP monitor                                 |
-| uptimePercentage        | integer                                   | Uptime percentage for the monitor over the last 24 hours |
-| averageHeartbeatLatency | integer                                   | Average latency for the monitor over the last 24 hours   |
-| showFilters             | boolean                                   | Used to check if hourly heartbeats are available         |
-| paused                  | boolean                                   | Boolean if the monitor is paused                         |
-| notificationId          | ?string                                   | Notification id associated with the monitor              |
-| notificationType        | ?string                                   | Type of notifications to send for monitor                |
-| icon                    | [object](#icon-structure)                 | Icon information for the monitor                         |
-| heartbeats              | ?Array<[Heartbeat](#heartbeat-structure)> | Array of monitor heartbeats                              |
-| cert                    | ?[Certificate](#certificate-structure)    | Information about the certificate                        |
+| Field                   | Type                                    | Description                                              |
+| ----------------------- | --------------------------------------- | -------------------------------------------------------- |
+| monitorId               | string                                  | Unique id for the monitor                                |
+| name                    | string                                  | Name of the monitor                                      |
+| url                     | string                                  | URL/IP/Identifier of the monitor                         |
+| retry                   | integer                                 | Number of retries before sending notification            |
+| interval                | integer                                 | Interval between each ping to monitor                    |
+| retryInterval           | integer                                 | Retry interval after a failed ping                       |
+| requestTimeout          | integer                                 | Request timeout for ping                                 |
+| method                  | ?string                                 | Method for http monitor                                  |
+| headers                 | ?object                                 | Headers object for http request                          |
+| body                    | ?object                                 | Body object for http request                             |
+| ignoreTls               | ?boolean                                | Whether to ignore TLS for HTTPS monitors                 |
+| valid_status_codes      | ?array                                  | Array of valid status codes for http request             |
+| email                   | string                                  | Email address for the user who created the monitor       |
+| type                    | string                                  | Type of montior (HTTP/TCP)                               |
+| port                    | ?integer                                | Port for the TCP monitor                                 |
+| uptimePercentage        | integer                                 | Uptime percentage for the monitor over the last 24 hours |
+| averageHeartbeatLatency | integer                                 | Average latency for the monitor over the last 24 hours   |
+| showFilters             | boolean                                 | Used to check if hourly heartbeats are available         |
+| paused                  | boolean                                 | Boolean if the monitor is paused                         |
+| notificationId          | ?string                                 | Notification id associated with the monitor              |
+| notificationType        | ?string                                 | Type of notifications to send for monitor                |
+| icon                    | [object](#icon-structure)               | Icon information for the monitor                         |
+| heartbeats              | ?Array[Heartbeat](#heartbeat-structure) | Array of monitor heartbeats                              |
+| cert                    | ?[Certificate](#certificate-structure)  | Information about the certificate                        |
 
 ### Example Full Monitor
 
-::: code-group
+<Tabs>
 
+<TabItem value="Docker" label="Docker">
 ```json [Docker]
 {
   "monitorId": "4d048471-9e85-428b-8050-4238f6033478",
@@ -108,7 +111,9 @@ The monitor object may contain different fields based on the type of monitor (Do
   ]
 }
 ```
+</TabItem>
 
+<TabItem value="HTTP" label="HTTP">
 ```json [HTTP]
 {
   "monitorId": "4d048471-9e85-428b-8050-4238f6033478",
@@ -167,7 +172,9 @@ The monitor object may contain different fields based on the type of monitor (Do
   }
 }
 ```
+</TabItem>
 
+<TabItem value="JSON" label="JSON">
 ```json [JSON]
 {
   "monitorId": "4d048471-9e85-428b-8050-4238f6033478",
@@ -226,7 +233,9 @@ The monitor object may contain different fields based on the type of monitor (Do
   }
 }
 ```
+</TabItem>
 
+<TabItem value="Ping" label="Ping">
 ```json [Ping]
 {
   "monitorId": "4d048471-9e85-428b-8050-4238f6033478",
@@ -270,7 +279,9 @@ The monitor object may contain different fields based on the type of monitor (Do
   ]
 }
 ```
+</TabItem>
 
+<TabItem value="Push" label="Push">
 ```json [Push]
 {
   "monitorId": "4d048471-9e85-428b-8050-4238f6033478",
@@ -314,7 +325,9 @@ The monitor object may contain different fields based on the type of monitor (Do
   ]
 }
 ```
+</TabItem>
 
+<TabItem value="TCP" label="TCP">
 ```json [TCP]
 {
   "monitorId": "4d048471-9e85-428b-8050-4238f6033478",
@@ -355,8 +368,9 @@ The monitor object may contain different fields based on the type of monitor (Do
   ]
 }
 ```
+</TabItem>
 
-:::
+</Tabs>
 
 ## Certificate Object
 
@@ -434,19 +448,19 @@ The monitor object may contain different fields based on the type of monitor (Do
 
 ## Add a new monitor
 
-### <Badge type="post" text="POST" /> /api/monitor/add
+### POST /api/monitor/add
 
 Create a new monitor with the provided payload in the request body, validation will occur according the [schema](/api/validation/monitor). Returns the [full monitor](#monitor-structure) object for the new monitor added.
 
 ## Edit a monitor
 
-### <Badge type="post" text="POST" /> /api/monitor/edit
+### POST /api/monitor/edit
 
 Edit monitor with the provided payload in the request body, validation will occur according the [schema](/api/validation/monitor). Returns the [full monitor](#monitor-structure) object for the edited monitor.
 
 ## Delete monitor
 
-### <Badge type="tip" text="GET" /> /api/monitor/delete
+### GET /api/monitor/delete
 
 Deletes the monitor, along with the heartbeats and certificates.
 
@@ -458,7 +472,7 @@ Deletes the monitor, along with the heartbeats and certificates.
 
 ## Get monitor status
 
-### <Badge type="tip" text="GET" /> /api/monitor/status
+### GET /api/monitor/status
 
 Endpoint returns an array of [heartbeats](#heartbeat-structure) within the given timespace. Heartbeats for week and month are the heartbeats closest to every fith minute within the time span.
 
@@ -471,7 +485,7 @@ Endpoint returns an array of [heartbeats](#heartbeat-structure) within the given
 
 ## Get a specific monitor
 
-### <Badge type="tip" text="GET" /> /api/monitor/id
+### GET /api/monitor/id
 
 Returns the [full monitor](#monitor-structure) object for a specific monitor using the given monitor id.
 

@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Flows Guide
+title: Flows
 description: Guide to user and system flows in Lunalytics, including registration, sign-in, monitor management, and password reset.
 keywords:
   [

@@ -1,10 +1,7 @@
 ---
-aside: false
-sidebar: false
-prev:
-  text: 'Guides'
-  link: '/guides'
-next: false
+id: create-telegram-bot
+slug: /guides/notifications/telegram/create-bot
+title: Creating a Telegram Bot
 ---
 
 ## Currently a work in progress.

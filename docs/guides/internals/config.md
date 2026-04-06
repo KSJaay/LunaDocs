@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Config Guide
+title: Config
 description: Guide to configuring the server and database for Lunalytics, including config.json options and best practices.
 keywords:
   [
@@ -36,7 +36,7 @@ Configurations are used to set up the server and database. The configurations ar
 | Key           | Type    | Default                        | Reqiured | Description                                                          |
 | ------------- | ------- | ------------------------------ | -------- | -------------------------------------------------------------------- |
 | cors          | String  | []                             | false    | Comma separated list of domains to allow CORS requests from          |
-| database      | Object  | {"name": "lunalytics"}         | false    | Name of the database to use                                          |
+| database      | Object  | `{"name": "lunalytics"}`       | false    | Name of the database to use                                          |
 | isDemo        | boolean | false                          | false    | Set to `enabled` to enable demo mode                                 |
 | migrationType | String  | "automatic"                    | false    | Type of migration to run. Can be either "automatic" or "manual"      |
 | port          | Number  | 2308                           | false    | Port to run the server on                                            |

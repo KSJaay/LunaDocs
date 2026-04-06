@@ -1,10 +1,7 @@
 ---
-aside: false
-sidebar: false
-prev:
-  text: 'Guides'
-  link: '/guides'
-next: false
+id: webhook-index
+slug: /guides/notifications/webhook
+title: Webhook Integrations
 ---
 
 ## Currently a work in progress.

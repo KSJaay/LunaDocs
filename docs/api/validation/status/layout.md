@@ -1,3 +1,9 @@
+---
+id: validation-status-layout
+slug: /api/validation/status/layout
+title: Status Layout
+---
+
 # Status Layout Validation Schema
 
 Validation schemas for the different layout components of the status page.

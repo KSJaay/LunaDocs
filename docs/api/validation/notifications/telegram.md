@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-notifications-telegram
+slug: /api/validation/notifications/telegram
+title: Telegram
 ---
 
 # Telegram Notification Schema

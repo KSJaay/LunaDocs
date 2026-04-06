@@ -1,0 +1,119 @@
+:root {
+  --ifm-color-primary: #7f5af0;
+  --ifm-color-primary-dark: #6241c6;
+  --ifm-color-primary-darker: #52359f;
+  --ifm-color-primary-darkest: #3d256e;
+  --ifm-color-primary-light: #a78bfa;
+  --ifm-color-primary-lighter: #c4b5fd;
+  --ifm-color-primary-lightest: #ede9fe;
+  --ifm-color-accent: #7f5af0;
+  --ifm-link-color: #7f5af0;
+  --ifm-link-hover-color: #7f5af0;
+}
+
+.api-method.get > a::before {
+  content: 'GET';
+  color: #fff;
+  background: #4caf50;
+  display: inline-block;
+  margin-right: 8px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.api-method > a {
+  display: flex;
+  align-items: center;
+}
+.api-method.get > a::before,
+.api-method.post > a::before,
+.api-method.put > a::before,
+.api-method.delete > a::before,
+.api-method.patch > a::before,
+.api-method.options > a::before,
+.api-method.head > a::before {
+  display: inline-block;
+  width: 55px;
+  min-width: 55px;
+  max-width: 55px;
+  text-align: center;
+  margin-right: 12px;
+  padding: 2px 0;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.api-method.get > a::before {
+  content: 'GET';
+  color: #fff;
+  background: #4caf50;
+}
+.api-method.post > a::before {
+  content: 'POST';
+  color: #fff;
+  background: #2196f3;
+}
+.api-method.put > a::before {
+  content: 'PUT';
+  color: #fff;
+  background: #ff9800;
+}
+.api-method.delete > a::before {
+  content: 'DELETE';
+  color: #fff;
+  background: #f44336;
+}
+.api-method.patch > a::before {
+  content: 'PATCH';
+  color: #fff;
+  background: #9c27b0;
+}
+.api-method.options > a::before {
+  content: 'OPTIONS';
+  color: #fff;
+  background: #607d8b;
+}
+.api-method.head > a::before {
+  content: 'HEAD';
+  color: #fff;
+  background: #795548;
+}
+.api-method.post > a::before {
+  content: 'POST';
+  color: #fff;
+  background: #2196f3;
+}
+
+.api-method.put > a::before {
+  content: 'PUT';
+  color: #fff;
+  background: #ff9800;
+}
+
+.api-method.delete > a::before {
+  content: 'DELETE';
+  color: #fff;
+  background: #f44336;
+}
+
+.api-method.patch > a::before {
+  content: 'PATCH';
+  color: #fff;
+  background: #9c27b0;
+}
+
+.api-method.options > a::before {
+  content: 'OPTIONS';
+  color: #fff;
+  background: #607d8b;
+}
+
+.api-method.head > a::before {
+  content: 'HEAD';
+  color: #fff;
+  background: #795548;
+}

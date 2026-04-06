@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-user
+slug: /api/validation/user
+title: User Endpoints
 ---
 
 # User Endpoints

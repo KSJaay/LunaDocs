@@ -1,25 +1,25 @@
 ---
-title: Introduction to Lunalytics
+id: intro
+slug: /guides/intro
+title: Introduction
 description: Introduction to Lunalytics, the open source platform for application monitoring, downtime notifications, and public status pages.
 keywords:
-  [
-    Lunalytics,
-    introduction,
-    application monitoring,
-    status page,
-    uptime monitoring,
-    downtime notifications,
-    incident alerts,
-    open source,
-    monitoring tool,
-    real-time monitoring,
-    service health,
-    public status page,
-    alerting,
-    self-hosted monitoring,
-    SLA monitoring,
-    service reliability,
-  ]
+  - Lunalytics
+  - introduction
+  - application monitoring
+  - status page
+  - uptime monitoring
+  - downtime notifications
+  - incident alerts
+  - open source
+  - monitoring tool
+  - real-time monitoring
+  - service health
+  - public status page
+  - alerting
+  - self-hosted monitoring
+  - SLA monitoring
+  - service reliability
 ---
 
 # Welcome to Lunalytics documentation
@@ -32,11 +32,7 @@ You can try out the Lunalytics [live demo here](https://demo.lunalytics.xyz). Yo
 
 Lunalytics is an open source monitoring tool built with Node.js & React. It's focused on a developer first experience with support for multiple users. This application allows you to monitor various connection types such as HTTP(s),TCP, Ping, JSON Query, etc. We are currently working really hard to add more monitor types, along with other methods of monitoring for developers.
 
-<div class="tip custom-block" style="padding: 12px;border: none">
-
-Want to try out the application? Skip to [Getting Started](/guides/getting-started).
-
-</div>
+> Want to try out the application? Skip to [Getting Started](/guides/getting-started).
 
 ## Why Lunalytics
 

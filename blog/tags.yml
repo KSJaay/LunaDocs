@@ -1,0 +1,29 @@
+monitor:
+  label: Monitor
+  permalink: /monitor
+  description: Information about Lunalytics monitors
+
+status-page:
+  label: Status Page
+  permalink: /status-page
+  description: Information about Lunalytics status page
+
+incident:
+  label: Incident
+  permalink: /incident
+  description: Information about Lunalytics incidents
+
+settings:
+  label: Settings
+  permalink: /settings
+  description: Information about Lunalytics settings
+
+integration:
+  label: Integration
+  permalink: /integration
+  description: Information about Lunalytics integrations
+
+notification:
+  label: Notification
+  permalink: /notification
+  description: Information about Lunalytics notifications

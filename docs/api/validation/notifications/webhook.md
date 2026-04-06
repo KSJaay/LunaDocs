@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-notifications-webhook
+slug: /api/validation/notifications/webhook
+title: Webhook
 ---
 
 # Webhook Notification Schema

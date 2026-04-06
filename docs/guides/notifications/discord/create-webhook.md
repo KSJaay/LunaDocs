@@ -1,10 +1,7 @@
 ---
-aside: false
-sidebar: false
-prev:
-  text: 'Guides'
-  link: '/guides'
-next: false
+id: create-discord-webhook
+slug: /guides/notifications/discord/create-webhook
+title: Creating a Discord webhook
 ---
 
 # Creating a Discord webhook
@@ -13,9 +10,8 @@ Discord has a [Webhooks](https://discord.com/developers/docs/resources/webhook) 
 
 ## How to create a webhook
 
-::: warning
-In order to create a webhook, you need to have `Manage Webhooks` permission in the server.
-:::
+> **Warning**
+> In order to create a webhook, you need to have `Manage Webhooks` permission in the server.
 
 1. Open the server settings and head to the `Integrations` tab.
 2. Click on the webhooks tab, this will open a list of currently available webhooks.

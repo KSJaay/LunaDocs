@@ -23,6 +23,8 @@ keywords:
   - SLA monitoring
   - service reliability
   - incident management
+
+hide_table_of_contents: true
 ---
 
 # Welcome to Lunalytics documentation

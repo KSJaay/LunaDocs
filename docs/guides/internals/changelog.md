@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Changelog
+title: Changelog
 description: Changelog and release notes for Lunalytics, the open source application monitoring and status page platform.
 keywords:
   [

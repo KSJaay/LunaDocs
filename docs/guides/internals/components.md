@@ -1,5 +1,5 @@
 ---
-title: Lunalytics Components Guide
+title: Components
 description: Documentation for internal components of Lunalytics, the open source application monitoring and status page platform.
 keywords:
   [

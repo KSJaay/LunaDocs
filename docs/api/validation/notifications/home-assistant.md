@@ -1,5 +1,7 @@
 ---
-aside: false
+id: validation-notifications-home-assistant
+slug: /api/validation/notifications/home-assistant
+title: Home Assistant
 ---
 
 # Home Assistant Notification Schema
