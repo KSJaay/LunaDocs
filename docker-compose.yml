@@ -1,0 +1,4 @@
+services:
+  lunadocs:
+    build: .
+    restart: unless-stopped
