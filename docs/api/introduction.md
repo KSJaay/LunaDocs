@@ -17,7 +17,7 @@ Authorization with the Lunalytics API can be done in one of two ways:
 1. **API tokens** can be generated in the Lunalytics dashboard under the "Settings" >"API Tokens" section, and should be included in the request headers.
 2. **Cookie-based authentication** can be used by including a session cookie in the request headers.
 
-For more information about [authorization](/api/authorization) please refer to the dedicated documentation page.
+For more information about [authorization](/docs/api/authorization) please refer to the dedicated documentation page.
 
 #### Base URL
 

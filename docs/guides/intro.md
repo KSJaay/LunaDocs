@@ -32,7 +32,7 @@ You can try out the Lunalytics [live demo here](https://demo.lunalytics.xyz). Yo
 
 Lunalytics is an open source monitoring tool built with Node.js & React. It's focused on a developer first experience with support for multiple users. This application allows you to monitor various connection types such as HTTP(s),TCP, Ping, JSON Query, etc. We are currently working really hard to add more monitor types, along with other methods of monitoring for developers.
 
-> Want to try out the application? Skip to [Getting Started](/guides/getting-started).
+> Want to try out the application? Skip to [Getting Started](/docs/guides/getting-started.mdx).
 
 ## Why Lunalytics
 
